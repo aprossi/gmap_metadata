@@ -5,10 +5,10 @@ meta_json = {
     "map_type": "",
     "crs": "",
     "bounding_box": {
-        'minlat':0,
-        'maxlat':0,
-        'westlon':0,
-        'eastlon':0
+        "minlat":0,
+        "maxlat":0,
+        "westlon":0,
+        "eastlon":0
     },
     "output_scale": "",
     "authors": [
