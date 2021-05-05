@@ -5,6 +5,8 @@ geologic units are defined as points, and polygons are generated dynamically as 
  
  ## Qgis project CRS
  
+ The geographic projection is already included in e.g. QGIS 3.16. Other projection could be set as needed (procedure to be documented) with GDAL/OGR
+ 
  ```
  GCS_Moon_2000
 WKT
