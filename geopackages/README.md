@@ -2,7 +2,7 @@
 
 The sample unprojected (geographic, MOON, IAU sphere) geopackages are supposed to work with [Mappy](https://github.com/europlanet-gmap/mappy), i.e. 
 geologic units are defined as points, and polygons are generated dynamically as needed, based on contat intersections.
- 
+
  ## Qgis project CRS
  
  The geographic projection is already included in e.g. QGIS 3.16. Other projection could be set as needed (procedure to be documented) with GDAL/OGR
@@ -34,3 +34,13 @@ Extent
 -180.00, -90.00, 180.00, 90.00
 ```
 
+## GMAP geopackages
+
+The template (provided here for the Moon, using an set of empty geopackages with geographic coordinates) includes
+
+* Units (point)
+* Contacts (line)
+* Surface features (polygon)
+* Linear features (line)
+
+The layers used actively by Mappy are _Units_ and _Contacts_. Additional vector layers are possible, see also [GMAP wiki](https://wiki.europlanet-gmap.eu/bin/view/Main/Documentation/Vector%20mapping%20fields/)
